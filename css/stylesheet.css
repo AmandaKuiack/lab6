@@ -1,0 +1,70 @@
+body {
+    background-color: #E5E5DC;
+}
+.container {
+    display: flexbox;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+.header {
+    background-color: #DB504A;
+}
+nav {
+    text-align: center;
+}
+a:link {
+    color: lightsteelblue;
+}
+a:visited {
+    color: darkblue;
+}
+h1.index {
+    color: #EDDDD0;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+}
+h1 {
+    color: #EDDDD0;
+    text-align: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 4fr 1fr; /*1fr 1fr 1fr;*/
+    grid-template-rows: 100px 2fr 1fr;
+    color: #334259;
+    margin: 10px;
+    
+}
+.title {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    padding:20px 0px;
+}
+.image {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    
+}
+.one {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    
+}
+.two {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    
+}
+.bcitlogoschool {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer {
+    background-color: #DB504A;
+    text-align: center;
+    margin: 10px;
+    
+
+}
