@@ -26,6 +26,7 @@ h1.index {
 h1 {
     color: #EDDDD0;
     text-align: center;
+    
 }
 .grid {
     display: grid;
@@ -65,5 +66,8 @@ h1 {
     text-align: center;
     margin: 10px;
     
+
+}
+@media screen and (max-width:600px){
 
 }
