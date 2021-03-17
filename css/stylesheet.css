@@ -64,10 +64,30 @@ h1 {
 .footer {
     background-color: #DB504A;
     text-align: center;
-    margin: 10px;
-    
-
+    margin: 10px
 }
-@media screen and (max-width:600px){
+@media screen and (max-width: 600px){
+    body {
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr;
+
+    }
+    .container {
+        margin: 10px 5px;
+        padding: 10px;
+    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .footer {
+        background-color: #DB504A;
+        text-align: center;
+        margin: 5px
+
+    
+    }
 
 }
